@@ -1,0 +1,157 @@
+/*
+Theme Name: Freetile Styles by Damien Saunders
+Theme URI: http://wordpress.damien.co
+Author: Damien Saunders
+*/
+
+#freetile{}
+
+#freetile .wp-post-image{
+	display:block;
+	margin:auto;
+   }
+
+#freetile a{
+	text-decoration: none;
+	color:#000000;
+  }
+
+#freetile .ftext{
+	background-color: white;
+	padding-bottom:3px;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	position:relative;
+	text-shadow:grey;
+	font-size:16px;
+
+}
+
+
+#freetile .fboxYellow{
+position:relative; 
+float:left; 
+overflow: hidden; 
+position: relative;
+min-height: 100px;
+max-width: 200px;
+background-color: #ffffff;
+background-image: -webkit-gradient(radial, 0% 0%,0,0% 0%,200, from(rgb(255, 252, 0)), to(rgb(255, 255, 255)));
+background-image: -webkit-radial-gradient(0% 0%, rgb(255, 255, 255), rgb(255, 252, 0));
+background-image: -moz-radial-gradient(0% 0%, rgb(255, 255, 255), rgb(255, 252, 0));
+background-image: -o-radial-gradient(0% 0%, rgb(255, 255, 255), rgb(255, 252, 0));
+background-image: -ms-radial-gradient(0% 0%, rgb(255, 255, 255), rgb(255, 252, 0));
+background-image: radial-gradient(0% 0%, rgb(255, 255, 255), rgb(255, 252, 0));
+  font-family: "arial";
+}
+#freetile .fboxViolet{position:relative; 
+float:left; 
+overflow: hidden; 
+position: relative;
+min-height: 100px;
+max-width: 200px;
+background-color: #7a81ff;
+background-image: -webkit-gradient(radial, 0% 0%,0,0% 0%,200, from(rgb(148, 55, 255)), to(rgb(122, 129, 255)));
+background-image: -webkit-radial-gradient(0% 0%, rgb(122, 129, 255), rgb(148, 55, 255));
+background-image: -moz-radial-gradient(0% 0%, rgb(122, 129, 255), rgb(148, 55, 255));
+background-image: -o-radial-gradient(0% 0%, rgb(122, 129, 255), rgb(148, 55, 255));
+background-image: -ms-radial-gradient(0% 0%, rgb(122, 129, 255), rgb(148, 55, 255));
+background-image: radial-gradient(0% 0%, rgb(122, 129, 255), rgb(148, 55, 255));
+  font-family: "special elite";
+}
+
+#freetile .fboxRed{
+position:relative; 
+float:left; 
+overflow: hidden; 
+min-height: 100px;
+max-width: 200px;
+background-color: #ff2600;
+background-image: -webkit-gradient(radial, 0% 0%,0,0% 0%,200, from(rgb(255, 47, 146)), to(rgb(255, 38, 0)));
+background-image: -webkit-radial-gradient(0% 0%, rgb(255, 38, 0), rgb(255, 47, 146));
+background-image: -moz-radial-gradient(0% 0%, rgb(255, 38, 0), rgb(255, 47, 146));
+background-image: -o-radial-gradient(0% 0%, rgb(255, 38, 0), rgb(255, 47, 146));
+background-image: -ms-radial-gradient(0% 0%, rgb(255, 38, 0), rgb(255, 47, 146));
+background-image: radial-gradient(0% 0%, rgb(255, 38, 0), rgb(255, 47, 146));
+  margin-top:2px;
+  margin-left: 2px;
+  font-family: "special elite";  
+
+}
+
+#freetile .fboxGreen{
+position:relative; 
+float:left; 
+overflow: hidden; 
+min-height: 100px;
+max-width: 200px;
+background-color: #8efa00;
+background-image: -webkit-gradient(radial, 0% 0%,0,0% 0%,200, from(rgb(0, 251, 146)), to(rgb(142, 250, 0)));
+background-image: -webkit-radial-gradient(0% 0%, rgb(142, 250, 0), rgb(0, 251, 146));
+background-image: -moz-radial-gradient(0% 0%, rgb(142, 250, 0), rgb(0, 251, 146));
+background-image: -o-radial-gradient(0% 0%, rgb(142, 250, 0), rgb(0, 251, 146));
+background-image: -ms-radial-gradient(0% 0%, rgb(142, 250, 0), rgb(0, 251, 146));
+background-image: radial-gradient(0% 0%, rgb(142, 250, 0), rgb(0, 251, 146));
+  margin-top:2px;
+  margin-left: 2px;
+  font-family: "special elite";  
+
+}
+
+#freetile .fboxBlue{
+position:relative; 
+float:left; 
+overflow: hidden; 
+min-height: 100px;
+max-width: 200px;
+background-color: #00fdff;
+background-image: -webkit-gradient(radial, 100% 0%,0,100% 0%,200, from(rgb(0, 150, 255)), to(rgb(0, 253, 255)));
+background-image: -webkit-radial-gradient(100% 0%, rgb(0, 253, 255), rgb(0, 150, 255));
+background-image: -moz-radial-gradient(100% 0%, rgb(0, 253, 255), rgb(0, 150, 255));
+background-image: -o-radial-gradient(100% 0%, rgb(0, 253, 255), rgb(0, 150, 255));
+background-image: -ms-radial-gradient(100% 0%, rgb(0, 253, 255), rgb(0, 150, 255));
+background-image: radial-gradient(100% 0%, rgb(0, 253, 255), rgb(0, 150, 255));
+  margin-top:2px;
+  margin-left: 2px;
+  font-family: "special elite";  
+
+}
+
+#freetile .fboxOrange{
+position:relative; 
+float:left; 
+overflow: hidden; 
+min-height: 100px;
+max-width: 200px;
+background-color: #ff7e79;
+background-image: -webkit-gradient(radial, 100% 0%,0,100% 0%,200, from(rgb(255, 147, 0)), to(rgb(255, 126, 121)));
+background-image: -webkit-radial-gradient(100% 0%, rgb(255, 126, 121), rgb(255, 147, 0));
+background-image: -moz-radial-gradient(100% 0%, rgb(255, 126, 121), rgb(255, 147, 0));
+background-image: -o-radial-gradient(100% 0%, rgb(255, 126, 121), rgb(255, 147, 0));
+background-image: -ms-radial-gradient(100% 0%, rgb(255, 126, 121), rgb(255, 147, 0));
+background-image: radial-gradient(100% 0%, rgb(255, 126, 121), rgb(255, 147, 0));
+  margin-top:2px;
+  margin-left: 2px;
+  font-family: "special elite";  
+
+}
+
+#freetile .fboxWhite{
+position:relative; 
+float:left; 
+overflow: hidden; 
+min-height: 100px;
+max-width: 200px;
+background-color: #ffffff;
+background-image: -webkit-gradient(radial, 100% 0%,0,100% 0%,200, from(rgb(235, 235, 235)), to(rgb(255, 255, 255)));
+background-image: -webkit-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(235, 235, 235));
+background-image: -moz-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(235, 235, 235));
+background-image: -o-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(235, 235, 235));
+background-image: -ms-radial-gradient(100% 0%, rgb(255, 255, 255), rgb(235, 235, 235));
+background-image: radial-gradient(100% 0%, rgb(255, 255, 255), rgb(235, 235, 235));
+  margin-top:2px;
+  margin-left: 2px;
+  font-family: "special elite";  
+
+}
